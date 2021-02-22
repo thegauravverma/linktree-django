@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+    <title>List of Link</title>
+</head>
+<body>
+<h1>Welcome {{ name }}</h1>
+{% for each in check %}
+    <a href="{{ each.url }}">{{ each.name }}</a>
+    <br>
+{% endfor %}
+</body>
+</html>
